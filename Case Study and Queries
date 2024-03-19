@@ -1,0 +1,8 @@
+# <p align="center" style="margin-top: 0px;">💰 Case Study #4 - Data Bank 💰
+## <p align="center">  A. Customer Nodes Exploration
+
+### 1. How many nodes are there on the Data Bank System?
+
+```sql
+SELECT COUNT(DISTINCT node_id) AS Unique_nodes FROM customer_nodes;
+```
